@@ -6,5 +6,8 @@ function reverseString(string) {
     return stringArray.toString();
 }
 
+
+
 // export function for testing
+
 module.exports = reverseString;
