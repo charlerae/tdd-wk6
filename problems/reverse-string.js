@@ -6,4 +6,4 @@ function reverseString(string) {
     return stringArray;
 }
 
-module.exports = { reverseString };
+module.exports = reverseString;

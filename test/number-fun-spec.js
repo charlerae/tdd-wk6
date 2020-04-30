@@ -9,16 +9,12 @@ const reciprocal = require('../problems/number-fun.js');
 describe('reciprocal()', function() {
     context('given a number', () => {
         it('should return the reciprocal of the given number', function() {
-            // arrange
+            // arrange result variables
             const result1 = reciprocal(2);
-            const result2 = reciprocal(25);
+            // propose answers
             const answer1 = .5;
-            const answer2 = .04;
-            assert.strictEqual(result1, answer1);
-            assert.strictEqual(result2, answer2);
-            // act
-
             // assert
-        })
-    })
-})
+            assert.strictEqual(result1, answer1);
+        });
+    });
+});
