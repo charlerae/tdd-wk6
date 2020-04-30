@@ -3,7 +3,8 @@
 function reverseString(string) {
     const stringArray = [];
     stringArray.push(string.split('').reverse().join(''));
-    return stringArray;
+    return stringArray.toString();
 }
 
-module.exports = { reverseString };
+// export function for testing
+module.exports = reverseString;
