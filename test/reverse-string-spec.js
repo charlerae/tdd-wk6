@@ -5,17 +5,16 @@ const spies = require('chai-spies');
 const expect = chai.expect;
 chai.use(spies);
 // require problem module
-const reverseString = require('../problems/reverse-string.js');
+const rev = require('../problems/reverse-string.js');
 
 // test for reverse string function
-describe('reverseString()', function(){
-    // let anotherString = 'Hi There';
-    it('should reverse the order of the characters of that string', function() {
+describe('rev', () => {
+    it('should reverse the order of the characters of the given string', function() {
             // arrange
-        let aString = 'testing123';
+        // let aString = 'testing123';
             // act
-        reverseString(aString);
+        let abc = rev('testing123');
             // assert
-         expect(aString).to.equal('321gnitset');
+         expect(abc).to.equal('321gnitset');
      });
  });
