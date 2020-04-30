@@ -1,6 +1,5 @@
 
-// function that returns the recirocal of a given number
+// function that returns the reciprocal of a given number
 
 
 // export reciprocal function
-
